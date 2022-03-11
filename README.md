@@ -9,6 +9,27 @@
   - The API listens on port 5000
 
   - Once a GET request to port 5000 is received, this request will get a response on home page with response data "Hi there!"
+  
+  - Project Structure:
+	```
+	.
+	├── Dockerfile
+	├── Makefile
+	├── README.md
+	├── __pycache__
+	│   ├── application.cpython-38.pyc
+	│   └── test_application.cpython-38-pytest-7.0.1.pyc
+	├── app
+	│   ├── __init__.py
+	│   └── __pycache__
+	│       └── __init__.cpython-38.pyc
+	├── application.py
+	├── instance
+	│   ├── flask.cfg
+	│   └── flask_test.cfg
+	├── requirements.txt
+	└── test_application.py
+	```
 
 
     
