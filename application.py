@@ -1,6 +1,3 @@
-from flask import Flask
-application = Flask(__name__)
+from app import create_app
 
-@application.route('/')
-def hello_world():
-    return 'Hi there!'
+application = create_app("flask.cfg")
