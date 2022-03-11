@@ -1,3 +1,5 @@
+[![Python Flask API test with GitHub Actions](https://github.com/xzhnshng/flask-hello-app/actions/workflows/main.yml/badge.svg)](https://github.com/xzhnshng/flask-hello-app/actions/workflows/main.yml)
+
 # README
 
 ## Project Overview
@@ -163,3 +165,4 @@ $ docker run -d -p 5000:5000 flask-hello-app:latest
 ```
 
 I published my docker image on DukerHub: https://hub.docker.com/repository/docker/acdnxie/flask-hello-app
+<img width="1306" alt="image" src="https://user-images.githubusercontent.com/47130690/157933336-3b1999af-e785-4fd6-a790-ad9f94cd4068.png">
