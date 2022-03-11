@@ -4,11 +4,11 @@
 
 ## Project Overview
 
-- This project is a Microservice Flask api
+- This project is a Microservice Flask API
 
-  - The api listen on port 5000
+  - The API listens on port 5000
 
-  - once a GET reqeust to port 5000, the request will get a responce from home page with responce data "Hi there!"
+  - Once a GET request to port 5000 is received, this request will get a response on home page with response data "Hi there!"
 
 
     
@@ -16,7 +16,7 @@
 - CI/CD:
 
   - Set workflow in GitHub Action
-    - do automatically code format, lint and test
+    - do automatically code format, lint, and test
     - based on "Makefile" and workflows-"main.yml"
   - IaC (Intrastructure as Code) used *AWS CodePipeline*
   - Deployed on *AWS Elastic BeansTalk*
@@ -73,14 +73,14 @@ $ export FLASK_ENV=development
 
 
 
-Run the app
+Run the app on Local
 
 ```
 $ flask run
 ```
 
 
-
+Test request & response on Local
 Visit localhost 5000 port on browser `127.0.0.1:5000`
 
 or 
