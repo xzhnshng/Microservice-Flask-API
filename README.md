@@ -10,6 +10,7 @@
 
   - once a GET reqeust to port 5000, the request will get a responce from home page with responce data "Hi there!"
 
+
     
 
 - CI/CD:
@@ -137,14 +138,18 @@ $ make all
 Go to AWS Elastic Beanstalk
 
 Create App and Environment
+<img width="1312" alt="image" src="https://user-images.githubusercontent.com/47130690/157984797-36a1e74d-68ee-47c4-b688-332f8088085e.png">
 
 
 
 Go to AWS CodePipline
 
 Create CodePipline which will be triggered by any changes on GitHub repo's main branch
+<img width="1376" alt="image" src="https://user-images.githubusercontent.com/47130690/157984700-db08f461-2de9-46ae-aee2-fcaf6d9c0567.png">
 
 
+
+<img width="1163" alt="image" src="https://user-images.githubusercontent.com/47130690/157984777-9442ad52-d5b9-4111-8d7f-9908224c0577.png">
 
 
 
@@ -166,3 +171,14 @@ $ docker run -d -p 5000:5000 flask-hello-app:latest
 
 I published my docker image on DukerHub: https://hub.docker.com/repository/docker/acdnxie/flask-hello-app
 <img width="1306" alt="image" src="https://user-images.githubusercontent.com/47130690/157933336-3b1999af-e785-4fd6-a790-ad9f94cd4068.png">
+
+
+## Reference: 
+> Individual Project 1 Requirements
+> - Cloud Continuous Delivery of Microservice (MLOps or Data Engineering Focused)
+> - Create a Microservice in Flask or Fast API
+Push source code to Github
+> - Configure Build System to Deploy changes
+> - Use IaC (Infrastructure as Code) to deploy code
+> - Use either AWS, Azure, GCP (recommended services include Google App Engine, AWS App Runner or Azure App Services)
+> - Containerization is optional, but recommended
